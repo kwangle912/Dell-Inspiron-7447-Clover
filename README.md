@@ -1,5 +1,5 @@
 # Instroduce
-Laptop Dell Inspiron 7447
+## Laptop Dell Inspiron 7447
 
 Detail Spesification
 * Processor : Intel Core i5 4210H @2.9Ghz
@@ -18,7 +18,7 @@ Detail Spesification
 * Bootloader: Clover v5.1 r5xxx release and lastest
 * OS version: macOS Catalina 10.15.x and lastest
 
-# Working
+## Working
 * CPU Power Management
 * Sleep/Wake: working
 * Restart/Shutdown
@@ -52,8 +52,9 @@ Only kext Big Sur - Catalina
 - 9xxx：`AC 9260`,`AC 9461`, `AC 9462`, `AC 9560`
 - 22000：`ax200`, `ax201`, `AC 9462`
 - [Supported Devices](https://openintelwireless.github.io/itlwm/Compat.html)
+- Link download [AirportItlwm.kext](https://github.com/kwangle912/AirportItwm-Itlwm)
 
-## Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1)
+Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1)
 * Copy Heliprt To Applications & Reboot
 * Run Heliport / check "Launch At Login
 * Note : if you want to reset the assignment to en0, 
