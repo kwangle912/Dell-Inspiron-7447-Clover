@@ -42,7 +42,7 @@ Not working
 Only kext Big Sur - Catalina
 * [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases): Kext to /EFI/Clover/Kext/Other
 * Disable SIP & install AirportItlwm into /Library/Extensions "With Hackintool" & rebuild kext cache then reboot (use AirportItlwm Catalina and install [Hackintool.app](https://github.com/headkaze/Hackintool/releases))
-```
+
 ## Supported Intel WiFi Cards by itlwm
 - 2000: `Supported`
 - 3xxx: `AC 3160`, `AC 3165`, `AC 3168`
@@ -52,7 +52,7 @@ Only kext Big Sur - Catalina
 - 9xxx：`AC 9260`,`AC 9461`, `AC 9462`, `AC 9560`
 - 22000：`ax200`, `ax201`, `AC 9462`
 - [Supported Devices](https://openintelwireless.github.io/itlwm/Compat.html)
-```
+
 ## Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1)
 * Copy Heliprt To Applications & Reboot
 * Run Heliport / check "Launch At Login
