@@ -20,11 +20,12 @@ Detail Spesification
 
 ## Working
 * CPU Power Management
-* Sleep/Wake: working
+* Sleep/Wake
 * Restart/Shutdown
 * Internal Speaker, Audio Digital Out, Headphone and Microphone
 * Audio Realtek AC255 (layout-id = 20)
 * Intel WiFi AC-3160
+* Disable dGPU (card Nvidia GTX)
 * Brightness + Fn up/down
 * All USB Port
 * Trackpad
@@ -36,7 +37,7 @@ Not working
 
 # Installing
 * Copy EFI directory for Clover
-* Download [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5128)
+* Download [Clover v5.1 release](https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5128)
 
 ## Intel WiFi Driver for Hackintosh
 Only kext Big Sur - Catalina
@@ -52,10 +53,10 @@ Only kext Big Sur - Catalina
 - 9xxx：`AC 9260`,`AC 9461`, `AC 9462`, `AC 9560`
 - 22000：`ax200`, `ax201`, `AC 9462`
 - [Supported Devices](https://openintelwireless.github.io/itlwm/Compat.html)
-- Link download [AirportItlwm.kext](https://github.com/kwangle912/AirportItwm-Itlwm)
+- Link download [AirportItlwm.kext](https://github.com/kwangle912/AirportItlwm-for-Hackintosh)
 
 Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1)
 * Copy Heliprt To Applications & Reboot
-* Run Heliport / check "Launch At Login
-* Note : if you want to reset the assignment to en0, 
+* Run Heliport and check "Launch At Login
+* Note: If you want to reset the assignment to en0, 
 just delete /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist and reboot.
