@@ -33,16 +33,17 @@ Detail Spesification
 
 Not working
 * Nvidia Card (Switchable Graphics is not supported Hackintosh)
+* Bluetooth (Intel Bluetooth is not supported)
 * Etc
 
 # Installing
 * Copy EFI directory for Clover
-* Download [Clover v5.1 release](https://github.com/CloverHackyColor/CloverBootloader/releases/tag/5128)
+* Download [Clover v5.1 release](https://github.com/CloverHackyColor/CloverBootloader/releases)
 
 ## Intel WiFi Driver for Hackintosh
-Only kext Big Sur - Catalina
-* [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases): Kext to /EFI/Clover/Kext/Other
-* Disable SIP & install AirportItlwm into /Library/Extensions "With Hackintool" & rebuild kext cache then reboot (use AirportItlwm Catalina and install [Hackintool.app](https://github.com/headkaze/Hackintool/releases))
+
+* Only kext Big Sur - [My kext for WiFi](https://github.com/kwangle912/AirportItlwm-for-Hackintosh): Kext to /EFI/Clover/Kext/Other
+* Only kext Catalina - Disable SIP & install AirportItlwm into /Library/Extensions "With Hackintool" & rebuild kext cache then reboot (use AirportItlwm Catalina and install [Hackintool.app](https://github.com/headkaze/Hackintool/releases))
 
 ## Supported Intel WiFi Cards by itlwm
 - 2000: `Supported`
@@ -55,8 +56,8 @@ Only kext Big Sur - Catalina
 - [Supported Devices](https://openintelwireless.github.io/itlwm/Compat.html)
 - Link download [AirportItlwm.kext](https://github.com/kwangle912/AirportItlwm-for-Hackintosh)
 
-Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1)
-* Copy Heliprt To Applications & Reboot
-* Run Heliport and check "Launch At Login
+Download [HeliPort.app](https://github.com/OpenIntelWireless/HeliPort/releases)
+* Install Heliport.dmg to Applications and open Heliport.app (No reboot)
+* Check on Heliport with Preferences "Open launch At Login" ✅
 * Note: If you want to reset the assignment to en0, 
-just delete /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist and reboot.
+just delete ❌:/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist and reboot. Enjoy 🎉
